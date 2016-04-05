@@ -14,7 +14,7 @@ export default class About extends Component{
 					</div>
 					<div className="apply-button">
 						<br/>
-						<button type="button" className="btn btn-warning">Apply Now</button>
+						<button type="button" className="btn btn-warning">Register Now</button>
 					</div>
 				</div>
 			</div>

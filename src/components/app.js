@@ -7,21 +7,18 @@ import About from './about'
 import Contact from './contact'
 import Description from './description'
 import ImageDiv from './image_div'
+import Footer from './footer'
 
 export default class App extends Component {
   render() {
     return (
-      <div >
-      	
+      <div>
       	<Landing/>
       	<Description/>
       	<About/>
       	<ImageDiv/>
       	<Contact/>
-      	{/*<DivTwo/>
-      	<DivThree/>
-      	<Contact/>
-*/}      	<div>React simple starter</div>
+        <Footer/>
       </div>
     );
   }

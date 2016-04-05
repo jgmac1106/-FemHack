@@ -9,8 +9,6 @@ export default class Contact extends Component{
 					Carlos Benson <br/>
 					123 456 7890
 				</div>
-				
-				<div>2016 Southern Connecticut State University</div>
 			</div>
 		)
 	}
