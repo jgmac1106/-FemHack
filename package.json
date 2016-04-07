@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "build0": "webpack ./src/Main.jsx build/bundle.js",
-    "dev": "webpack-dev-server --host 0.0.0.0 --port 2992 --content-base build/ --inline --hot --colors",
-    "dev0": "webpack-dev-server --content-base build/ --inline --hot --colors",
+    "dev": "webpack-dev-server --content-base build/ --inline --hot --colors",
+    "dev0": "webpack-dev-server --host 0.0.0.0 --port 2992 --content-base build/ --inline --hot --colors",
     "dev1": "webpack-dev-server --inline --hot --colors"
   },
   "keywords": [],
@@ -29,7 +29,7 @@
     "stylus": "^0.54.2",
     "stylus-loader": "^2.0.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.9.11",
+    "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-notifier": "^1.3.0"
   }
