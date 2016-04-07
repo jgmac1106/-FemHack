@@ -1,10 +1,12 @@
 import React,{Component} from 'react'
+
 import Navbar from './navbar'
+import ApplyButton from './apply_button'
 
 export default class Landing extends Component{
 	render(){
 		return(
-			<div className="landing-div" >
+			<div className="landing-div container-fluid center-text">
 				<Navbar/>
 				<div className="femhack-img-div">
 					<img className="femhack-header-img" src={require('../css/images/femhack.png')}/>
@@ -21,12 +23,8 @@ export default class Landing extends Component{
 					REGISTRATION<br></br>
 					PER MEMBER
 				</div>
-				<div className="apply-button">
-					<br/>
-					<button type="button" className="btn btn-warning btn-lg">Register Now*</button>
-					<br/><br/>
-					<p>Limited Seats Available</p>
-				</div>
+				<ApplyButton />
+				<p className="limited-seats center-text">Limited Seats Available</p>
 			</div>
 		)
 	}

@@ -12,14 +12,13 @@ import Footer from './footer'
 export default class App extends Component {
   render() {
     return (
-      <div>
-      	<Landing/>
-      	<Description/>
-      	<About/>
-      	<ImageDiv/>
-      	<Contact/>
+      <div className="app">
+        <Landing />
+        <Description />
+        <About />
+        <Contact/>
         <Footer/>
       </div>
-    );
+    )
   }
 }
