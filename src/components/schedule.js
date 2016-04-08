@@ -13,8 +13,8 @@ export default class About extends Component{
 						<p>4:15 YouthZone Session Two: Evaluate the 13 principles of a feminist Web</p>
 						<p>5:15 YouthZone Session Three: Create a movie poster using HTML and CSS</p>
 						<h3>Saturday</h3>
-						<p>8:30-9:30   Registration
-						<p>8:30-9:30   Icebreaker: If you have never built a website learn how as we send letters to the next president</p>
+						<p>8:30-9:00   Registration
+						<p>9:00-9:45   Icebreaker: If you have never built a website learn how as we send letters to the next president</p>
 						<p>12:30       Lunch  </p>    
 						<p>4:30-5:00   Judging</p>     
 					</div>
