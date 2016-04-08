@@ -60,7 +60,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	__webpack_require__(170);
+	__webpack_require__(172);
 
 	_reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.getElementById('root'));
 
@@ -19713,6 +19713,14 @@
 
 	var _footer2 = _interopRequireDefault(_footer);
 
+	var _challenge = __webpack_require__(170);
+
+	var _challenge2 = _interopRequireDefault(_challenge);
+
+	var _schedule = __webpack_require__(171);
+
+	var _schedule2 = _interopRequireDefault(_schedule);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -19738,7 +19746,9 @@
 	        { className: 'app' },
 	        _react2.default.createElement(_landing2.default, null),
 	        _react2.default.createElement(_description2.default, null),
+	        _react2.default.createElement(_challenge2.default, null),
 	        _react2.default.createElement(_about2.default, null),
+	        _react2.default.createElement(_schedule2.default, null),
 	        _react2.default.createElement(_contact2.default, null),
 	        _react2.default.createElement(_footer2.default, null)
 	      );
@@ -19866,7 +19876,6 @@
 					_react2.default.createElement(
 						'div',
 						{ className: 'one-liner' },
-						_react2.default.createElement('br', null),
 						'｛ ',
 						' A YOUTH EMPOWERED HACK JAM ',
 						'｝'
@@ -20290,10 +20299,18 @@
 					"div",
 					{ className: "footer-div container-fluid" },
 					_react2.default.createElement(
-						"p",
-						{ className: "text-muted center-text" },
-						"2016 Southern Connecticut State University"
-					)
+						"a",
+						{ rel: "license", href: "http://creativecommons.org/licenses/by-sa/4.0/" },
+						_react2.default.createElement("img", { alt: "Creative Commons License", src: "https://i.creativecommons.org/l/by-sa/4.0/88x31.png" })
+					),
+					_react2.default.createElement("br", null),
+					"This work is licensed under a ",
+					_react2.default.createElement(
+						"a",
+						{ rel: "license", href: "http://creativecommons.org/licenses/by-sa/4.0/" },
+						"Creative Commons Attribution-ShareAlike 4.0 International License"
+					),
+					"."
 				);
 			}
 		}]);
@@ -20307,13 +20324,189 @@
 /* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Challenge = function (_Component) {
+		_inherits(Challenge, _Component);
+
+		function Challenge() {
+			_classCallCheck(this, Challenge);
+
+			return _possibleConstructorReturn(this, Object.getPrototypeOf(Challenge).apply(this, arguments));
+		}
+
+		_createClass(Challenge, [{
+			key: "render",
+			value: function render() {
+				return _react2.default.createElement(
+					"div",
+					{ className: "challenge-div container-fluid padder" },
+					_react2.default.createElement(
+						"div",
+						{ className: "" },
+						_react2.default.createElement(
+							"h2",
+							{ className: "challenge-header" },
+							"// The Challenge"
+						),
+						_react2.default.createElement(
+							"div",
+							{ className: "container about-div-list" },
+							_react2.default.createElement(
+								"h3",
+								null,
+								"How do we get more women involved in the Greater New Haven Tech Scene?"
+							)
+						)
+					)
+				);
+			}
+		}]);
+
+		return Challenge;
+	}(_react.Component);
+
+	exports.default = Challenge;
+
+/***/ },
+/* 171 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _apply_button = __webpack_require__(163);
+
+	var _apply_button2 = _interopRequireDefault(_apply_button);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Schedule = function (_Component) {
+		_inherits(Schedule, _Component);
+
+		function Schedule() {
+			_classCallCheck(this, Schedule);
+
+			return _possibleConstructorReturn(this, Object.getPrototypeOf(Schedule).apply(this, arguments));
+		}
+
+		_createClass(Schedule, [{
+			key: 'render',
+			value: function render() {
+				return _react2.default.createElement(
+					'div',
+					{ className: 'schedule-div container-fluid padder' },
+					_react2.default.createElement(
+						'div',
+						{ className: '' },
+						_react2.default.createElement(
+							'h2',
+							{ className: 'schedule-header' },
+							'// THE SCHEDULE'
+						),
+						_react2.default.createElement(
+							'div',
+							{ className: 'container schedule-content' },
+							_react2.default.createElement(
+								'h3',
+								null,
+								'Friday'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'3:15 YouthZone Session One: Learn basic HTML by remixing websites about current events'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'4:15 YouthZone Session Two: Evaluate the 13 principles of a feminist Web'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'5:15 YouthZone Session Three: Create a movie poster using HTML and CSS'
+							),
+							_react2.default.createElement(
+								'h3',
+								null,
+								'Saturday'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'8:30-9:00   Registration'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'9:00-9:45   Icebreaker: If you have never built a website learn how as we send letters to the next president'
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'12:30       Lunch  '
+							),
+							_react2.default.createElement(
+								'p',
+								null,
+								'4:30-5:00   Judging'
+							)
+						)
+					)
+				);
+			}
+		}]);
+
+		return Schedule;
+	}(_react.Component);
+
+	exports.default = Schedule;
+
+/***/ },
+/* 172 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(171);
+	var content = __webpack_require__(173);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(175)(content, {});
+	var update = __webpack_require__(177)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -20330,21 +20523,21 @@
 	}
 
 /***/ },
-/* 171 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(172)();
+	exports = module.exports = __webpack_require__(174)();
 	// imports
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans|Capriola|Frijole);", ""]);
 
 	// module
-	exports.push([module.id, "@font-face {\n  font-family: Frijole;\n  font-weight: 300;\n  font-style: normal;\n}\n@font-face {\n  font-family: Bubblegum Sans;\n  font-weight: 400;\n  font-style: normal;\n}\n@font-face {\n  font-family: Capriola;\n  font-weight: 400;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  -moz-box-sizing: content-box;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml,\nbody,\n#root,\n.app {\n  font-size: 100%;\n  font-family: 'Capriola';\n  color: #fff;\n}\n.landing-div {\n  position: relative;\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  color: #fff;\n}\n.one-liner {\n  font-size: 3em;\n}\n.header-date {\n  font-size: 225%;\n}\n.limited-seats {\n  font-size: 200%;\n}\n.header-registration-dollar {\n  font-size: 400%;\n  color: #facb74;\n}\n.apply-button {\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  font-size: 2em !important;\n}\n.description-header,\n.about-div-header,\n.contact-header {\n  text-align: center;\n  font-size: 350%;\n}\n.description-paragraph {\n  text-align: center;\n  font-size: 120%;\n}\n.contact-div {\n  text-align: center;\n}\nhtml,\nbody,\n#root,\n.app {\n  height: 100%;\n  width: 100%;\n}\n.padder {\n  padding: 10%;\n}\n.navbar {\n  margin-bottom: 0px !important;\n}\n.brand-logo {\n  max-width: 100px !important;\n  padding: 15px 15px;\n  float: left;\n}\n.landing-div {\n  background-image: url(" + __webpack_require__(173) + ");\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  height: 100vh;\n}\n@media only screen and (max-width: 480px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n@media only screen and (max-width: 700px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n.navbar-custom {\n  background-color: none;\n  border-color: none;\n  background-image: none;\n  background-repeat: no-repeat;\n}\n.femhack-header-img {\n  display: block;\n  margin: 0 auto;\n  height: 40%;\n  width: 60%;\n}\n.header-registration {\n  text-align: center;\n}\n.description-div {\n  background-color: #145e79;\n}\n.about-div {\n  background-image: url(" + __webpack_require__(174) + ");\n  background-repeat: no-repeat;\n  background-size: auto 100%;\n  text-align: center;\n}\n.contact-div {\n  background-color: #008593;\n  color: #fff;\n}\n.contact-info {\n  padding-top: 5%;\n}\n.footer-div {\n  background-color: #000;\n}\n.text-muted {\n  padding-top: 8px;\n}\n.btn-warning {\n  background-color: #fbcd73 !important;\n  border-color: #fbcd73 !important;\n}\n", ""]);
+	exports.push([module.id, "@font-face {\n  font-family: Frijole;\n  font-weight: 300;\n  font-style: normal;\n}\n@font-face {\n  font-family: Bubblegum Sans;\n  font-weight: 400;\n  font-style: normal;\n}\n@font-face {\n  font-family: Capriola;\n  font-weight: 400;\n  font-style: normal;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nvideo {\n  display: inline-block;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden] {\n  display: none;\n}\nhtml {\n  font-family: sans-serif;\n  -webkit-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n}\na:focus {\n  outline: thin dotted;\n}\na:active,\na:hover {\n  outline: 0;\n}\nh1 {\n  font-size: 2em;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: 700;\n}\ndfn {\n  font-style: italic;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, serif;\n  font-size: 1em;\n}\npre {\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\nq {\n  quotes: 2 1C 2 1D 2 18 2 19;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: 100%;\n  margin: 0;\n}\nbutton,\ninput {\n  line-height: normal;\n}\nbutton,\nhtml input[type=button],\ninput[type=reset],\ninput[type=submit] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\ninput[disabled] {\n  cursor: default;\n}\ninput[type=checkbox],\ninput[type=radio] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=search] {\n  -webkit-appearance: textfield;\n  -moz-box-sizing: content-box;\n  -webkit-box-sizing: content-box;\n  box-sizing: content-box;\n}\ninput[type=search]::-webkit-search-cancel-button,\ninput[type=search]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\ntextarea {\n  overflow: auto;\n  vertical-align: top;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\nbody,\nfigure {\n  margin: 0;\n}\nlegend,\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n.clearfix:after {\n  visibility: hidden;\n  display: block;\n  font-size: 0;\n  content: \" \";\n  clear: both;\n  height: 0;\n}\n* {\n  -moz-box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml,\nbody,\n#root,\n.app {\n  font-size: 100%;\n  font-family: 'Capriola';\n  color: #fff;\n}\n.landing-div {\n  position: relative;\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  color: #fff;\n}\n.one-liner {\n  font-size: 3em;\n}\n.header-date {\n  font-size: 225%;\n}\n.limited-seats {\n  font-size: 200%;\n}\n.header-registration-dollar {\n  font-size: 400%;\n  color: #facb74;\n}\n.apply-button {\n  font-family: 'Bubblegum Sans';\n  text-align: center;\n  font-size: 2em !important;\n}\n.description-header,\n.about-div-header,\n.contact-header,\n.challenge-header,\n.schedule-header {\n  text-align: center;\n  font-size: 350%;\n}\n.description-paragraph {\n  font-size: 120%;\n}\n.contact-div,\n.challenge-div,\n.description-paragraph,\n.footer-div {\n  text-align: center;\n}\n.challenge-div,\n.schedule-div {\n  color: #000;\n}\nhtml,\nbody,\n#root,\n.app {\n  height: 100%;\n  width: 100%;\n}\n.padder {\n  padding: 10%;\n}\n.navbar {\n  margin-bottom: 0px !important;\n}\n.brand-logo {\n  max-width: 100px !important;\n  padding: 15px 15px;\n  float: left;\n}\n.landing-div {\n  background-image: url(" + __webpack_require__(175) + ");\n  background-repeat: no-repeat;\n  background-size: 100% auto;\n  height: 100vh;\n  padding-bottom: 10px;\n}\n@media only screen and (max-width: 480px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n@media only screen and (max-width: 700px) {\n  .landing-div {\n    background-color: #808080;\n    background-size: auto 100%;\n  }\n}\n.navbar-custom {\n  background-color: none;\n  border-color: none;\n  background-image: none;\n  background-repeat: no-repeat;\n}\n.femhack-header-img {\n  display: block;\n  margin: 0 auto;\n  height: 40%;\n  width: 60%;\n}\n.header-registration {\n  text-align: center;\n}\n.description-div {\n  background-color: #145e79;\n}\n.about-div {\n  background-image: url(" + __webpack_require__(176) + ");\n  background-repeat: no-repeat;\n  background-size: auto 100%;\n  text-align: center;\n}\n.contact-div {\n  background-color: #008593;\n  color: #fff;\n}\n.contact-info {\n  padding-top: 5%;\n}\n.footer-div {\n  background-color: #000;\n  padding-top: 10px;\n}\n.text-muted {\n  padding-top: 8px;\n}\n.btn-warning {\n  background-color: #fbcd73 !important;\n  border-color: #fbcd73 !important;\n}\n.schedule-content {\n  padding-left: 10%;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 172 */
+/* 174 */
 /***/ function(module, exports) {
 
 	/*
@@ -20400,19 +20593,19 @@
 
 
 /***/ },
-/* 173 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "049d9d2af72af4a6ef4afaf579eea658.jpg";
 
 /***/ },
-/* 174 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "3f4e13c384a17e9f06a3394a5ff1c27e.jpg";
 
 /***/ },
-/* 175 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
