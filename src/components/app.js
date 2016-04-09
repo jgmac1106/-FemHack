@@ -8,6 +8,8 @@ import Contact from './contact'
 import Description from './description'
 import ImageDiv from './image_div'
 import Footer from './footer'
+import Challenge from './challenge'
+import Schedule from './schedule'
 
 export default class App extends Component {
   render() {
@@ -15,7 +17,9 @@ export default class App extends Component {
       <div className="app">
         <Landing />
         <Description />
+        <Challenge />
         <About />
+        <Schedule />
         <Contact/>
         <Footer/>
       </div>

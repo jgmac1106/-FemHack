@@ -12,7 +12,6 @@ export default class Landing extends Component{
 					<img className="femhack-header-img" src={require('../css/images/femhack.png')}/>
 				</div>
 				<div className="one-liner">
-					<br/>
 					{'\uFF5B '} A YOUTH EMPOWERED HACK JAM {'\uFF5D'}
 				</div>
 				<div className="header-date">
